@@ -1,8 +1,8 @@
 class CoinMarketCapApi {
   constructor(env) {
     this.env = env
-    this.apiUrl = env.getCoinMarketApiUrl()
-    this.apiKey = env.getCoinMarketApiKey()
+    this.apiUrl = this.env.getCoinMarketApiUrl()
+    this.apiKey = this.env.getCoinMarketApiKey()
   }
 
   getCryptoMxnPrices() {
